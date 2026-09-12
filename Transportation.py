@@ -31,7 +31,6 @@ def solve_transportation():
     """
     =========================================================
     PROBLEM STATEMENT (Transportation Case Study):
-    ---------------------------------------------------------
     Find the optimal shipment plan to minimize total cost.
     
     Supply Capacities (Sources S1, S2, S3):
@@ -47,7 +46,6 @@ def solve_transportation():
       S3 [  4,  2,  5,  9 ]
     =========================================================
     """
-    print("--- TASK 2: VAM & MODI METHOD ---")
     
     supply = np.array([30, 50, 20], dtype=float)
     demand = np.array([20, 40, 30, 10], dtype=float)
